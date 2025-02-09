@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Maulccodes
 - 👀 I’m interested in Programming and Electrical engineering
-- 🌱 I’m currently learning Python 
+- 🌱 I’m currently learning Python and Java.
 - 💞️ I’m looking to collaborate on anything thats fun and can make a difference
 - 📫 How to reach me Maul754@gmail.com
 
