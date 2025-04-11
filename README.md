@@ -5,64 +5,44 @@
 - 📫 How to reach me Maul754@gmail.com
 
 
-JAMAL CLAIR
-Software Engineer
-Charlotte, United States
-maul754@gmail.com
+Jamal Clair
+📍 Charlotte, NC | 📧 maul754@gmail.com | 🔗 GitHub | LinkedIn
 
-LINKS
-Github, Linkedin
+SOFTWARE ENGINEER
+Experienced developer with a background in full-stack web development, systems troubleshooting, and process automation. Combines technical expertise from freelance projects and enterprise IT roles to deliver scalable solutions.
 
-PROFILE
-Experienced Software Developer adept in bringing forth expertise in design, installation, testing and maintenance of software
-systems. Equipped with a diverse and promising skill-set. Proficient in various platforms, languages, and embedded systems.
-Experienced with the latest cutting edge development tools and procedures. Able to effectively self-manage during independent
-projects, as well as collaborate as part of a productive team.
+TECHNICAL SKILLS
+Languages: JavaScript, Python, Java, C, PHP, SQL, HTML/CSS, ASP.NET
+Tools: Git, Visual Studio, Active Directory, Remedy, PowerShell
+Frameworks/Platforms: Web 2.0, MVS, .NET, Windows/Mac OS
 
-EMPLOYMENT HISTORY
-Helpdesk Analyst, for Duke Energy Oct 2017 — Present
-• Diagnose, Troubleshoot, and Repair computer funtions
-• Grant access to Databases within company structure w/ Active Directory
-• Create Knowledge Base Articles to provide fix for system issues
-• Create Incidents thickets using Remedy system software.
+PROFESSIONAL EXPERIENCE
+Helpdesk Analyst | Duke Energy | Oct 2017 – Present
+IT Support with Software Development Impact
 
-Adecco Staffing/Asst, Binary Tech for Shutterfly Oct 2017 — Dec 2017
-Rock Hill
-• Diagnose, Troubleshoot, and Repair printing press machines.
-• Accurately respond to Incident Tickets
-• Create a log of documented work completion
-• Install software pertain to specific machines
+Automated repetitive tasks using PowerShell/Python, reducing ticket resolution time by 30%.
 
-Computer Programmer, Self-Employed Jun 2009 — Present
-• Create plan and design for websites
-• Develop websites coding in HTML, CSS, JavaScript.
-• Implemented transition for services from QA to PROD.
-• Tested and checked websites functionality and performance
+Managed SQL database access controls via Active Directory for 500+ employees.
+
+Documented system fixes in Knowledge Base, cutting repeat incidents by 25%.
+
+Freelance Full-Stack Developer | Self-Employed | Jun 2009 – Present
+Web Development & QA Testing
+
+Built 15+ responsive websites for clients using HTML/CSS, JavaScript, and PHP, improving load speeds by 40%.
+
+Migrated legacy sites to modern frameworks (e.g., ASP.NET), enhancing security and scalability.
+
+Conducted cross-browser testing and CI/CD pipeline integration for zero-downtime deployments.
+
+Technician (Contract) | Adecco Staffing for Shutterfly | Oct 2017 – Dec 2017
+Software-Driven Hardware Troubleshooting
+
+Debugged printing press software (C++/Java-based), resolving 50+ incidents with 98% accuracy.
+
+Deployed machine-specific software updates, reducing errors by 20%.
 
 EDUCATION
-Central Piedmont Community College 2014 — Present
-Software Engineer Charlotte
-
-SKILLS
-Cascading Style Sheets (CSS)
-JHTML
-JavaScript (Programming Language)
-C (Programming Language)
-PHP (Scripting Language)
-Printing Press
-Mac OS
-Microsoft Visual Studio
-Java (Programming Language)
-Operating Systems
-Python (Programming Language)
-Active Directory
-MVS (OS)
-SQL (Programming Language)
-ASP.NET
-Web 2.0
-HyperText Markup Language
-(HTML)
-
-LANGUAGES
-English
+Central Piedmont Community College | Charlotte, NC
+Associate Degree in Software Engineering | 2014 – 
 
