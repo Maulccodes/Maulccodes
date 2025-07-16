@@ -1,0 +1,96 @@
+/* Layout CSS */
+header {
+    background-color: #4b2b02;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #4b2b02;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Floated layout */
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/* Grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Relative and absolute positioning */
+.relative {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.absolute {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+/* overflow */
+.overflow {
+    width: 100px;
+    height: 50px;
+    overflow: scroll;
+}
+
+/* Responsive design with @media and flexbox */
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}

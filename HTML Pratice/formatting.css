@@ -1,0 +1,44 @@
+/* Formatting CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f38d19;
+    color: #502e02;
+}
+
+h1 {
+    color: #e6e200;
+}
+
+a {
+    color: #e6e200;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+/* Pseudo classes/elements */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Contextual/attribute selectors */
+p[data-info="important"] {
+    font-weight: bold;
+}
+
+/*  yellow pseudo class to format valid and invalid selected boxes */
+input[type="checkbox"]:focus:valid,
+input[type="checkbox"]:focus:invalid {
+    outline: 2px solid #f0ff1e; 
+    outline-offset: 2px; 
+}

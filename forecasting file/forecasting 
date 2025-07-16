@@ -1,0 +1,39 @@
+import org.apache.commons.math3.stat.regression.SimpleRegression;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class RenewableEnergyForecasting {
+
+    public static void main(String[] args) {
+        // Load historical data
+        SimpleRegression regression = new SimpleRegression();
+        try {
+            Scanner scanner = new Scanner(new File("weather_data.csv"));
+            scanner.nextLine(); // Skip header
+            while (scanner.hasNextLine()) {
+                String[] data = scanner.nextLine().split(",");
+                double temperature = Double.parseDouble(data[0]);
+                double sunshineHours = Double.parseDouble(data[1]);
+                double energyGenerated = Double.parseDouble(data[2]);
+
+                // Use sunshine hours as the independent variable (X) and energy generated as the dependent variable (Y)
+                regression.addData(sunshineHours, energyGenerated);
+            }
+            scanner.close();
+        } catch (FileNotFoundException e) {
+            System.err.println("File not found: weather_data.csv");
+            return;
+        }
+
+        // Train the model (linear regression)
+        System.out.println("Model trained with " + regression.getN() + " data points.");
+        System.out.println("Intercept: " + regression.getIntercept());
+        System.out.println("Slope: " + regression.getSlope());
+
+        // Predict energy generation for new weather data
+        double newSunshineHours = 7; // Example: 7 hours of sunshine
+        double predictedEnergy = regression.predict(newSunshineHours);
+        System.out.println("Predicted energy generation for " + newSunshineHours + " hours of sunshine: " + predictedEnergy + " kWh");
+    }
+}
