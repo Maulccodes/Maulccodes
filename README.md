@@ -44,5 +44,5 @@ Deployed machine-specific software updates, reducing errors by 20%.
 
 *EDUCATION
 Central Piedmont Community College | Charlotte, NC
-Associate Degree in Software Engineering | 2014 – 
+Associate Degree in Software Engineering | 2026
 
